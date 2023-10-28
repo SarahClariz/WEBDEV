@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    height: 9vh;
+    width: 100%;
+    font-size:  14pt;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333; /* Set the background color you want */
+    color: #fff; /* Set the text color you want */
+    padding: 10px; /* Add padding to create spacing if needed */
+    z-index: 100;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar a:hover {
+    color: black;
+}
+
+.section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-image: url('assets/350249422_647645857401898_3152423569221851390_n.jpg');
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+
+}
+
+.section-column {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('assets/350249422_647645857401898_3152423569221851390_n.jpg');
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+}
+
+.header-text {
+    font-size: 45pt;
+    margin-bottom: 15px;
+}
+
+#about-me{
+    background-color: blue;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-me-text {
+    width: 40%;
+    margin: 20px;
+}
+
+.image-wrappers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20%;
+}
+
+.picture-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#socmed-wrappers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.social-logo {
+    max-width: 20%;
+    height: auto;
+}
+
+#projects-accomplishments {
+    background-color: red;
+}
+
+#field-of-interest {
+    background-color: yellow;
+}
+
+#about-me-picture {
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+}
+
+.header-description {
+    margin-bottom: 30px;
+    font-size: 16pt;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    gap: 2em;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.big-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.projects-accomplishments-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.field-of-interest-text {
+    margin-top: 15px;
+}
+
+.big-card-wrappers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    margin: 15px 15px;
+}
